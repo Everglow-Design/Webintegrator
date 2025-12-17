@@ -45,13 +45,3 @@ navLinks.forEach(link => {
         }
     });
 });
-
-// Form submission (kan udvides)
-const contactForm = document.querySelector('.contact-form form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('Tak for din besked! Vi vender tilbage hurtigst muligt.');
-        this.reset();
-    });
-}
