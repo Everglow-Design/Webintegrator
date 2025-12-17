@@ -267,7 +267,13 @@ section h2::after {
 }
 
 .why-choose li::before {
-    content: '?';
+    display: none;
+}
+
+.why-choose li:first-child::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: '\f095';
     display: block;
     font-size: 2rem;
     color: var(--accent-color);
@@ -688,6 +694,7 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
 
 
 
