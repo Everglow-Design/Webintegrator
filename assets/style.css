@@ -280,6 +280,16 @@ section h2::after {
     margin-bottom: 0.5rem;
 }
 
+.why-choose li:nth-child(2)::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: '\f075';
+    display: block;
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
 /* 7. Cases - Card layout */
 .featured-cases {
     background: var(--light-bg);
@@ -694,6 +704,7 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
 
 
 
