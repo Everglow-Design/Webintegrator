@@ -1,0 +1,444 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.services-overview ul, .why-choose ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-overview li, .why-choose li {
+    margin: 0.5rem 0;
+}
+
+.featured-cases .case {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.about-person {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-person img {
+    border-radius: 50%;
+}
+
+.final-cta {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+.final-cta h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-info img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.about-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.about-image, .about-text {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.blog-post {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.blog-post.image-right {
+    flex-direction: row-reverse;
+}
+
+.blog-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.blog-image img:hover {
+    transform: scale(1.05);
+}
+
+.blog-text {
+    flex: 1;
+}
+
+.blog-post.image-left .blog-text {
+    text-align: right;
+}
+
+.blog-text h3 {
+    margin-top: 0;
+    color: #8B4513;
+    font-size: 1.5rem;
+}
+
+.blog-text p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #8B4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #A0522D;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #8B4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #A0522D;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #8B4513;
+}
+
+.service-item h3 {
+    color: #8B4513;
+    margin-top: 0;
+}
+
+.service-item p {
+    margin: 0.5rem 0;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsivitet */
+@media (max-width: 1024px) {
+    .hero {
+        height: 350px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    section {
+        padding: 1.5rem;
+        margin: 0.5rem auto;
+    }
+    .blog-post {
+        gap: 1.5rem;
+    }
+    .about-section, .contact-section {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 0.5rem;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+    .hero {
+        height: 300px;
+        padding: 1rem;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero p {
+        font-size: 0.9rem;
+    }
+    .hero-content {
+        padding: 1rem;
+    }
+    section {
+        padding: 1rem;
+        margin: 0.5rem auto;
+    }
+    .blog-post {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .blog-post.image-right {
+        flex-direction: column;
+    }
+    .blog-post.image-left .blog-text {
+        text-align: left;
+    }
+    .about-section, .contact-section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .service-item {
+        padding: 1rem;
+    }
+    .cta-section {
+        padding: 1rem;
+    }
+    .final-cta {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.2rem;
+    }
+    .hero p {
+        font-size: 0.8rem;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+    .blog-text h3 {
+        font-size: 1.2rem;
+    }
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 16px;
+    max-width: 1200px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8B4513;
+    color: white;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footer-left h3 {
+    margin: 0.5rem 0 0.25rem 0;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.footer-left .address-title {
+    margin-top: 2rem;
+}
+
+.footer-left p {
+    margin: 0.25rem 0;
+    text-align: left;
+}
+
+.footer-left .address {
+    margin-top: 0.5rem;
+}
+
+.footer-links {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.footer-links a, .footer-links span {
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+}
