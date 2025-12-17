@@ -214,6 +214,16 @@ section h2::after {
     color: var(--accent-color);
 }
 
+.services-overview li:nth-child(2)::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: '\f013';
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
 /* 6. Why Choose - med ikoner */
 .why-choose ul {
     list-style: none;
@@ -658,6 +668,7 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
 
 
 
