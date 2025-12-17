@@ -211,7 +211,7 @@ section h2::after {
     display: block;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 .services-overview li:nth-child(2)::before {
@@ -221,7 +221,7 @@ section h2::after {
     display: block;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 .services-overview li:nth-child(3)::before {
@@ -231,7 +231,7 @@ section h2::after {
     display: block;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 .services-overview li:nth-child(4)::before {
@@ -241,7 +241,7 @@ section h2::after {
     display: block;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 /* 6. Why Choose - med ikoner */
@@ -699,6 +699,7 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
 
 
 
