@@ -1,10 +1,10 @@
 /* Modern forbedret CSS med alle forslag */
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
-    --text-color: #333;
-    --light-bg: #f8f9fa;
+    --primary-color: #000000;
+    --secondary-color: #586F7C;
+    --accent-color: #04724D;
+    --text-color: #000000;
+    --light-bg: #F4F4F9;
     --white: #ffffff;
     --shadow: 0 2px 10px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
@@ -128,7 +128,7 @@ nav a.active {
 }
 
 .cta-button:hover {
-    background-color: #c0392b;
+    background-color: #04724D;
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(231, 76, 60, 0.6);
 }
@@ -167,7 +167,7 @@ section h2::after {
 
 /* 5. Services Overview med ikoner */
 .services-overview {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #586F7C 100%);
     color: white;
 }
 
@@ -290,7 +290,7 @@ section h2::after {
 }
 
 .read-more:hover {
-    background-color: #2980b9;
+    background-color: #586F7C;
     transform: translateX(5px);
 }
 
@@ -471,7 +471,7 @@ section h2::after {
 }
 
 .contact-form button:hover {
-    background-color: #c0392b;
+    background-color: #04724D;
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
 }
@@ -653,3 +653,5 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
+
