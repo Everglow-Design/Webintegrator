@@ -202,6 +202,10 @@ section h2::after {
 }
 
 .services-overview li::before {
+    display: none;
+}
+
+.services-overview li:first-child::before {
     font-family: 'Font Awesome 6 Brands';
     content: '\f19a';
     display: block;
@@ -654,6 +658,7 @@ footer {
     background: var(--secondary-color);
     transform: translateY(-3px);
 }
+
 
 
 
