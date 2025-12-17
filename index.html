@@ -182,12 +182,11 @@
     <section id="kontakt" class="contact-section">
         <div class="contact-form">
             <h2>Kontakt mig</h2>
-            <form action="https://formsubmit.co/kontakteverglow@hotmail.com" method="POST">
-                <!-- FormSubmit konfiguration -->
-                <input type="hidden" name="_subject" value="Ny henvendelse fra Everglow Design website">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://everglow-design.github.io/Webintegrator/success.html">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms konfiguration -->
+                <input type="hidden" name="access_key" value="92ec28bd-b49d-4d02-a8ca-d8960ebcc83e">
+                <input type="hidden" name="subject" value="Ny henvendelse fra Everglow Design">
+                <input type="hidden" name="redirect" value="https://everglow-design.github.io/Webintegrator/success.html">
                 
                 <label for="name">Navn:</label>
                 <input type="text" id="name" name="name" required>
