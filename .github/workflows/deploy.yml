@@ -19,7 +19,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /htdocs/  # Eller den sti simply.com bruger
+          server-dir: /public_html/  # Eller den sti simply.com bruger
           exclude: |
             **/.git*
             **/.git*/**
